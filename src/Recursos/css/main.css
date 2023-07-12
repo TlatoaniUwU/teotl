@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=VT323&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+#hero{
+    top: 0;
+    max-width: 100%;
+    min-height: 90vh;
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'VT323', monospace;
+}
+.btn-neon:hover{
+    background: #A945C7;
+    box-shadow: 0 0 10px #A945C7, 0 0 40px #A945C7, 0 0 80px #A945C7;
+    transition-delay: 0.2s;
+}
+.promo{
+    padding: 75vh 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+#acerca{
+    margin-top: 150px;
+}
+#zombie{
+    display: none;
+}
+#teotl-warrior{
+    display: none;
+}

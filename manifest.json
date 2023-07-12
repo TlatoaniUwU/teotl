@@ -1,0 +1,28 @@
+{
+  "short_name": "Teotl Warrior - El Videojuego",
+  "name": "Detalles del proximo juego.",
+  "lang":"es-MX",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "TEOTL.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "TEOTL.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "dir": "ltr",
+  "start_url": "/",
+  "categories": "Videojuegos",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
